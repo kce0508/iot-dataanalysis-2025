@@ -33,7 +33,7 @@
 ### 개발환경
 
 #### 코랩
-- Goolgle Colaboratory
+- Goolgle Colaboratory, 2017년 발표
 - 구글에서 만든 온라인 주피터노트북 개발 플랫폼
 - 구글 드라이브 연동, 구글 서버 하드웨어 사용
     - 드라이브 ColabNotebooks 폴더에 저장
@@ -83,18 +83,18 @@ rcParams['axes.unicode_minus'] = False
 sns.set_style('darkgrid')
 sns.set_theme(font='Malgun Gothic', rc={'axes.unicode_minus': False})
 
-- 시본 모듈(맷플롯립 하위 모듈) 설치
+- 시본(Seaborn) 모듈(맷플롯립 하위 모듈) 설치
 
 ```shell
 > pip install seaborn
 ```
 
-- 사이킷런 설치
+- 사이킷런(sklearn) 설치
 ```shell
 > pip install scikit-learn
 ```
 
-- 텐서플로 설치
+- 텐서플로(Tensorflow) 설치
 ```shell
 > pip install tensorflow==2.15.0
 ```
@@ -137,8 +137,8 @@ sns.set_theme(font='Malgun Gothic', rc={'axes.unicode_minus': False})
 ## 2일차
 
 ### 빅데이터에 필요한 모듈
-- Matplotlib(차트), Seaborn(차트 꾸미기), Numpy(배열) 
-- Pandas(데이터 조작), Folium(지도), Faker(더미데이터 생성)
+- Numpy(배열), Pandas(데이터 조작), Matplotlib(차트), Seaborn(차트 꾸미기) 
+- Folium(지도), Faker(더미데이터 생성)
 
 - [노트북](./day02/mldl01_주요모듈학습.ipynb)
 
@@ -157,9 +157,6 @@ sns.set_theme(font='Malgun Gothic', rc={'axes.unicode_minus': False})
 <img src="./image/ml0004.png" width="500">
 
 - K-최근접 이웃 회귀 알고리즘 문제점 확인
-
-- [노트북](./day02/mldl03_선형회귀.ipynb)
-
 - 선형회귀 중 직선(1차 방정식)의 문제점 확인
 
 ## 3일차
