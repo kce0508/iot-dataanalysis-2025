@@ -307,6 +307,7 @@ sns.set_theme(font='Malgun Gothic', rc={'axes.unicode_minus': False})
     - 하이퍼파라미터를 편리하게 관리해주는 도구
 
 ### 딥러닝, 인공신경망
+- 인공신경망 : ANN(Artificial Neural Network)
 - 딥러닝 : 인간의 뇌를 모방하여 훈련시키는 머신러닝 기법
     - 이미지, 영상, 음성, 텍스트 처리에 뛰어난 성능 발휘
 
@@ -316,6 +317,7 @@ sns.set_theme(font='Malgun Gothic', rc={'axes.unicode_minus': False})
 - [노트북](./day04/mldl01_딥러닝_인공신경망.ipynb)
 
 ### 심층신경망
+- 심층신경망 : DNN(Deep Neural Network)
 - 2개 이상의 밀집층으로 구성된 인공신경망
 - 은직층 : hidden layer. ReLU 활성화 함수 사용
 - 옵티마이저 : 신경망의 가중치, 절편을 제대로 학습하기위한 알고리즘. Adam 클래스 사용
@@ -355,7 +357,20 @@ sns.set_theme(font='Malgun Gothic', rc={'axes.unicode_minus': False})
 - 딥러닝 기본 신경망으로도 가능했음
 - 합성곱 신경망으로 훈련하고 예측하는 것이 좀더 정확도 높음
 
-### 파이토치
+- [노트북](./day05/mldl01_케라스_합성곱신경망.ipynb)
+
+### 파이토치 맛보기
+- 파이토 시작하기
+
+- [노트북](./day05/mldl02_파이토치시작.ipynb)
+
+## 6일차
+
+### 파이토치 기본학습
+
+### 파이토치 실습
+
+### 토이프로젝트
 
 ## 8일차
 
